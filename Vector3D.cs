@@ -31,7 +31,7 @@ namespace var3_kirichenkoilya
         public void Subtract (Vector3D v)
         {
             double[] res = coord.Cast<double>()
-                .Select((val, index) => val + (double)v.coord[index])
+                .Select((val, index) => val - (double)v.coord[index])
                 .ToArray(); 
             Console.WriteLine($"Разность: x = {res[0]}, y = {res[1]}, z = {res[2]}");
         }

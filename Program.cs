@@ -98,6 +98,16 @@ namespace var3_kirichenkoilya
                                 Console.WriteLine("Вектор 2 не создан");
                         }
                         break;
+                    case 7:
+                        if (v1 != null && v2 != null)
+                        {
+                            v1.Cosinus(v2);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Сначала создайте оба вектора");
+                        }
+                        break;
                 }
             }
         }
